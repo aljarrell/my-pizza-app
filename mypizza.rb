@@ -1,7 +1,5 @@
 def pizza(size, topping, cheese)
-  puts  "Size: #{size}"
-  puts "Topping: #{topping}"
-  puts "Cheese: #{cheese}"
+  puts "You ordered a #{size} pizza, with #{topping}, and #{cheese} cheese."
 end
 
 pizza("large", "bacon", "mozzarella")
