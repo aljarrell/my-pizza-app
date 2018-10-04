@@ -45,7 +45,7 @@ elsif
   del == "10-15 miles"
   puts "10-15 miles to your location"
   delivery_cost += 5
-elsif
+else
   del == "15-20 miles"
   puts "15-20 miles to your location"
   delivery_cost += 7
