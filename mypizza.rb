@@ -28,7 +28,7 @@ price = num * 5
 pizza_counter = 0
 delivery_cost = 0
 del = delivery()
-tip = price * 0.15
+
 
 num.times do
   puts "pizza number: #{pizza_counter += 1}"
@@ -50,5 +50,7 @@ else
   puts "15-20 miles to your location"
   delivery_cost += 7
 end
+
+ tip = (price + delivery_cost) * 0.15
 
 puts "You ordered #{num} pizzas, and delivery is $#{delivery_cost}, so your total is $#{price + delivery_cost + tip}."
